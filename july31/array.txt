@@ -1,0 +1,23 @@
+how to create any array?
+
+1. using array literals 
+syntax: 
+    datatype[] variable={v1,v2,v3,......vn};
+When we know the elements of array
+
+2. using new keyword
+syntax:
+    datatype[] variable = new datatype[size]
+-when we dont know the elements of array but we know the size of the arrray.
+-whenever we create array using new keyword it will store default value of datatype
+
+*Defalut values
+
+byte = 0
+short =0
+int = 0
+long =0
+float = 0.0
+char
+boolean = false
+String = null
