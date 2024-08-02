@@ -1,11 +1,161 @@
-String methods 
+
+Here are the string methods in the requested format:
+
 1. length()
-use: the return type is int.
-    it returns the number of character inside the String
+   - Return Type: int
+   - Use: It returns the number of characters inside the String.
+
 2. charAt(int index)
-use: the return type is char .\
-    it is used to return the character present at the given index.
-3. equals(string str)
-use: the return type is boolean.
-    it is used to compare content of the string.
-4.equalsIgnoreCase(String str)
+   -  Return Type : char
+   -  Use : It returns the character present at the given index.
+
+3. equals(String str)
+   - Return Type: boolean
+   - Use: It is used to compare the content of the string.
+
+4. equalsIgnoreCase(String str)
+   - Return Type: boolean
+   - Use: It is used to compare the content of the string without considering the case.
+
+5. trim()
+   - Return Type: String
+   - Use: It removes spaces from the beginning and end of the string.
+
+6. toCharArray()
+   - Return Type: char[]
+   - Use: It is used to convert the string into a character array.
+
+7. substring(int beginIndex)
+   - Return Type: String
+   - Use: It returns a new string that is a substring of the original string starting from the specified index.
+
+8. substring(int beginIndex, int endIndex)
+   - Return Type: String
+   - Use: It returns a new string that is a substring of the original string starting from the beginIndex to the endIndex.
+
+9. indexOf(int ch)
+   - Return Type: int
+   - Use: It returns the index within the string of the first occurrence of the specified character.
+
+10. indexOf(String str)
+    - Return Type: int
+    - Use: It returns the index within the string of the first occurrence of the specified substring.
+
+11. lastIndexOf(int ch)
+    - Return Type: int
+    - Use: It returns the index within the string of the last occurrence of the specified character.
+
+12. lastIndexOf(String str)
+    -  Return Type : int
+    -  Use : It returns the index within the string of the last occurrence of the specified substring.
+
+13.  toLowerCase() 
+    -  Return Type : String
+    -  Use : It converts all characters in the string to lowercase.
+
+14.  toUpperCase() 
+    -  Return Type : String
+    -  Use : It converts all characters in the string to uppercase.
+
+15.  replace(char oldChar, char newChar) 
+    -  Return Type : String
+    -  Use : It returns a new string resulting from replacing all occurrences of oldChar in the string with newChar.
+
+16.  replace(CharSequence target, CharSequence replacement) 
+    -  Return Type : String
+    -  Use : It replaces each substring of the string that matches the literal target sequence with the specified literal replacement sequence.
+
+17.  contains(CharSequence s) 
+    -  Return Type : boolean
+    -  Use : It returns true if and only if this string contains the specified sequence of char values.
+
+18.  split(String regex) 
+    -  Return Type : String[]
+    -  Use : It splits the string around matches of the given regular expression.
+
+19.  split(String regex, int limit) 
+    -  Return Type : String[]
+    -  Use : It splits the string around matches of the given regular expression, with a limit on the number of resulting substrings.
+
+20.  concat(String str) 
+    -  Return Type : String
+    -  Use : It concatenates the specified string to the end of the current string.
+
+21.  isEmpty() 
+    -  Return Type : boolean
+    -  Use : It returns true if, and only if, the string length is 0.
+
+22.  valueOf(int value) 
+    -  Return Type : String
+    -  Use : It returns the string representation of the int argument.
+
+23.  valueOf(double value) 
+    -  Return Type : String
+    -  Use : It returns the string representation of the double argument.
+
+24.  valueOf(char value) 
+    -  Return Type : String
+    -  Use : It returns the string representation of the char argument.
+
+25.  valueOf(boolean value) 
+    -  Return Type : String
+    -  Use : It returns the string representation of the boolean argument.
+
+26.  valueOf(Object obj) 
+    -  Return Type : String
+    -  Use : It returns the string representation of the Object argument.
+
+27.  format(String format, Object... args) 
+    -  Return Type : String
+    -  Use : It returns a formatted string using the specified format string and arguments.
+
+28.  matches(String regex) 
+    -  Return Type : boolean
+    -  Use : It tells whether or not this string matches the given regular expression.
+
+29.  intern() 
+    -  Return Type : String
+    -  Use : It returns a canonical representation for the string object.
+
+30.  getBytes() 
+    -  Return Type : byte[]
+    -  Use : It encodes the string into a sequence of bytes using the platform's default charset, storing the result into a new byte array.
+
+31.  getBytes(String charsetName) 
+    -  Return Type : byte[]
+    -  Use : It encodes the string into a sequence of bytes using the named charset, storing the result into a new byte array.
+
+32.  compareTo(String anotherString) 
+    -  Return Type : int
+    -  Use : It compares two strings lexicographically.
+
+33.  compareToIgnoreCase(String str) 
+    -  Return Type : int
+    -  Use : It compares two strings lexicographically, ignoring case differences.
+
+34.  regionMatches(int toffset, String other, int ooffset, int len) 
+    -  Return Type : boolean
+    -  Use : It tests if two string regions are equal.
+
+35.  regionMatches(boolean ignoreCase, int toffset, String other, int ooffset, int len) 
+    -  Return Type : boolean
+    -  Use : It tests if two string regions are equal, optionally ignoring case.
+
+36.  startsWith(String prefix) 
+    -  Return Type : boolean
+    -  Use : It tests if the string starts with the specified prefix.
+
+37.  startsWith(String prefix, int toffset) 
+    -  Return Type : boolean
+    -  Use : It tests if the substring of the string starting at the specified index starts with the specified prefix.
+
+38.  endsWith(String suffix) 
+    -  Return Type : boolean
+    -  Use : It tests if the string ends with the specified suffix.
+
+39.  subSequence(int beginIndex, int endIndex) 
+    -  Return Type : CharSequence
+    -  Use : It returns a new character sequence that is a subsequence of this sequence.
+
+
+
