@@ -1,0 +1,11 @@
+String methods 
+1. length()
+use: the return type is int.
+    it returns the number of character inside the String
+2. charAt(int index)
+use: the return type is char .\
+    it is used to return the character present at the given index.
+3. equals(string str)
+use: the return type is boolean.
+    it is used to compare content of the string.
+4.equalsIgnoreCase(String str)
