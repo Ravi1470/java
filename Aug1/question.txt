@@ -1,0 +1,15 @@
+Q1
+// find the count of the negative numbers in the array
+// input
+// 7
+// 9 -3 8 -6 -7 8 10
+// output
+// 3
+Q2
+// how many n most occurence digit in the array of the elements
+// input
+// 2
+// 5
+// 37 823 122 2322 6017
+//output
+//2322

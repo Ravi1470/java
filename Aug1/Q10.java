@@ -11,14 +11,19 @@ public class Q10 {
             max = Math.max(arr[i], max);
             min = Math.min(arr[i], min);
         }
+        System.out.println(max);
+        System.out.println(min);
         for (int i = 0; i < arr.length; i++) {
             if (max == arr[i]) {
                 maxCount++;
+                System.out.println("maxcount "+maxCount);
             }
             if (min == arr[i]) {
                 minCount++;
+                System.out.println("mincount " + minCount);
             }
-        }
+                            } //(4*2+1*1)/(2+1)
+                                                                //9/3
         System.out.println((max * maxCount + min * minCount) / (maxCount + minCount));
     }
 }
