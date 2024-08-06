@@ -4,6 +4,8 @@ public class Lcm {
 
     // main function
     public static void main(String[] args) {
+
+
         // Numbers
         int a = 15, b = 25;
 
