@@ -7,6 +7,7 @@ import java.util.Scanner;
 // 9 -3 8 -6 -7 8 10
 // output
 // 3
+// good code never went wrong
 public class Q1 {
 
     public static void main(String[] args) {
