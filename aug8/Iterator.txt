@@ -1,0 +1,16 @@
+Iterator is a java cursor. it is used to iterate or traverse a collection object's elements one by one.
+
+It is a universal iterator as we can apply it to any collection object. by using iterator we can perform both read and remove operations.
+
+An iterator object can be created by callin the iterator() method present in collection interface.
+
+Iterator itr = c.iterator();
+Note: Here "c" is any collection object.
+
+the iterator interface defines three methods as listed below;
+
+1. hasNext() : Returns true if the iterator has more elements.
+
+2. next() : Returns the next element in the iteration . It throws NoSuchElementException if no more element is present.
+
+3. remove() : remove the next element in the iteration. This method can be called only once per call to next().

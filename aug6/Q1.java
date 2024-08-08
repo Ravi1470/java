@@ -7,11 +7,11 @@
 public class Q1 {
 
     public static void main(String[] args) {
-        String s1 = "listyen";
-        String s2 = "sileynt";
+        String s1 = "listen";
+        String s2 = "silent";
         boolean flag[] = new boolean[s1.length()];
         if (s1.length() != s2.length()) {
-            System.out.println("not an anagram");
+            System.out.println("not  anagram");
         } else {
             for (int i = 0; i < s1.length(); i++) {
                 for (int j = 0; j < s2.length(); j++) {
