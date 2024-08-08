@@ -1,0 +1,19 @@
+1. write a java program to remove hashset elements contained in other hashset
+input :
+h1: 50 ,20,70,40,10,60,30
+h2: 80,20,70,10,90,30
+
+output:
+h1: 50,40,60
+
+2.write a program to print all elements of hashset one by one without using for each loop.
+
+input: [null,17,s,XYZ,18.8,10]
+
+output:
+null
+17
+s
+XYZ
+18.8
+10
